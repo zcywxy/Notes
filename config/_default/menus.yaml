@@ -7,6 +7,12 @@ main:
   - name: Home
     url: /
     weight: 10
-  - name: Documentation
+  - name: Project Documentation
     url: docs/
-    weight: 20
+    weight: 25
+  - name: Paper Review
+    url: papers/
+    weight: 10
+  - name: Biostatistic Tutorial
+    url: bios/
+    weight: 25
