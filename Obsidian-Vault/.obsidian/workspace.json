@@ -1,0 +1,363 @@
+{
+  "main": {
+    "id": "976fa005f7259906",
+    "type": "split",
+    "children": [
+      {
+        "id": "11f605c6b369b3b7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "19568942e115d882",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "method note/Mardown Methods.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5973f3891a3b39a5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Others/读书笔记.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "bdb6f22a325c1ac0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "method note/R Command.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4665aa3984215b22",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "method note/Piecewise Mixed Model.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1d1675fba3893aa1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "paper notes/Trajectory Paper Review.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a42f42bf58d233f3",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "a550d1d51bf1dae1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Others/微积分.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "05bfbefa52b48e14",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Others/Lifestyle Medicine.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a0721e6ddb6108ba",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "method note/Git.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ecb891e0d05f94a7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "paper notes/Biomarkers for neurodegenerative disease.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5bea24cf8e3563ea",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "method note/SEM and Multilevel.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5dad5e8e3bd9893f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "method note/Piecewise Mixed Model.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "abe4ad6d82761bca",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "paper notes/Trajectory Paper Review.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b8fbb79eb1dc2d79",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "method note/PSY 505.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 6
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "64f12b3c3b0b435b",
+    "type": "split",
+    "children": [
+      {
+        "id": "afa471acbf76ad80",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6c15997602c9777b",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "65976fee3ae1ac0a",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": true,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "0f2b40da6f5ac584",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          },
+          {
+            "id": "3f5097de138660e6",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "cdb8e042a8090780",
+    "type": "split",
+    "children": [
+      {
+        "id": "d943da270418aec4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5dda9e20d3fa29c3",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Others/微积分.md",
+                "collapseAll": true,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "1955b63ac89f28ac",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Others/微积分.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "5ca300e9851a52ba",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "19ba1c133f1bf93f",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Others/微积分.md"
+              }
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 311
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "canvas:新建白板": false,
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "obsidian-read-it-later:ReadItLater: Save clipboard": false,
+      "obsidian-map-view:Open map view": false
+    }
+  },
+  "active": "a550d1d51bf1dae1",
+  "lastOpenFiles": [
+    "Others/WTC Intro.md",
+    "Others/WTC Cohort and Measurement Description.md",
+    "Others/Molecular Notes.md",
+    "Others/Lifestyle Medicine.md",
+    "paper notes/WTC Paper Summary.md",
+    "IDP & Work Log.md",
+    "method note/SEM and Multilevel.md",
+    "figure/Pasted image 20240123105249.png",
+    "figure/Pasted image 20240122113401.png",
+    "figure/Pasted image 20240122113045.png",
+    "figure/Pasted image 20240122085429.png",
+    "paper notes/Trajectory Paper Review.md",
+    "method note/Git.md",
+    "paper notes/Review education.md",
+    "paper notes/Unlabeled Data for Classification.md",
+    "figure/Pasted image 20240118160754.png",
+    "figure/Pasted image 20240118131746.png",
+    "figure/Pasted image 20240115131301.png",
+    "figure/Pasted image 20240115131233.png",
+    "figure/Pasted image 20240115130348.png",
+    "figure/Pasted image 20240115130321.png",
+    "paper notes/Biomarkers for neurodegenerative disease.md",
+    "figure/EKC.pdf",
+    "method note/Piecewise Mixed Model.md",
+    "content/_index.md",
+    "content",
+    "Others/WTC work notes.md",
+    "Others/写作计划.md",
+    "Others/可爱的朋友们.md",
+    "netlify.toml",
+    "netlify.example.toml",
+    "^quote-of-the-day.md",
+    "method note/Mardown Methods.md",
+    "method note/PSY 505.md",
+    "Others/Plan.md",
+    "method note/R Command.md",
+    "Others/Lab Meeting Notes.md",
+    "method note/Teaching Practicum I.md",
+    "figure/Pasted image 20231209122747.png.baiduyun.p.downloading",
+    "method note/Survival Analysis.md",
+    "method note/ANOVA.md",
+    "paper notes/WTC Paper Summary.md.baiduyun.p.downloading",
+    "paper notes/Trajectory Paper Review.md.baiduyun.p.downloading",
+    "figure/IMG_5908.heic",
+    "未命名.canvas",
+    "未命名 1.canvas",
+    "Others",
+    "method note/Meta Analysis.md.baiduyun.p.downloading"
+  ]
+}

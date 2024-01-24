@@ -1,0 +1,69 @@
+## 2016 Answer
+Traditional (linear) PCA and Factor analysis [require](https://stats.stackexchange.com/q/43304/3277) scale-level (interval or ratio) data. Often likert-type rating data are assumed to be scale-level, because such data are easier to analyze. And the decision is sometimes warranted statistically, especially when the number of ordered categories is greater than 5 or 6. (Albeit purely logically the question of the data type and the number of scale levels are distinct.)
+
+What if you prefer to treat polytomous likert scale as ordinal, though? Or you have dichotomous data? Is it possible to do exploratory factor analysis or PCA for them?
+
+There are currently three main approaches to perform FA (including PCA as its special case) on categorical ordinal or binary variables (read also [this](https://stats.stackexchange.com/a/16335/3277) account about binary data case, and [this](https://stats.stackexchange.com/a/103364/3277)consideration about what might be done with ordinal scale).
+
+1.  **Optimal scaling** approach (a family of [applications](https://stats.stackexchange.com/a/31297/3277)). Also called _Categorical PCA_ (CatPCA) or _nonlinear FA_. In CatPCA, ordinal variables are monotonically transformed ("quantified") into their "underlying" interval versions under the objective to maximize the variance explained by the selected number of principal components extracted from those interval data. Which makes the method openly goal-driven (rather than theory-driven) and important to decide on the number of principal components in advance. If true FA is needed instead of PCA, usual linear FA can then naturally be performed on those transformed variables output from CatPCA. With binary variables, CatPCA (regrettably?) behaves in the manner of usual PCA, that is, as if they are continuous variables. CatPCA accepts also nominal variables and any mixture of variable types (nice).
+    
+2.  **Inferred underlying variable** approach. Also known as PCA/FA performed on _tetrachoric_ (for binary data) or _polychoric_ (for ordinal data) correlations. Normal distribution is assumed for the underlying (then binned) continuous variable for every manifest variable. Then classic FA is applied to analyze the aforesaid correlations. The approach easily allows for a mixture of interval, ordinal, binary data. One disadvantage of the approach is that - at inferring the correlations - it has no clues to the multivariate distribution of the underlying variables, - can "conceive of" at most bivariate distributions, thus bases itself not on full information.
+    
+3.  **Item response theory** (IRT) approach. Sometimes also called _logistic FA_ or _latent trait_analysis. A model very close to binary logit (for binary data) or proportional log odds (for ordinal data) model is applied. The algorithm is not tied with decomposing of a correlation matrix, so it is a bit away from traditional FA, still it is a bona fide categorical FA. "Discrimination parameters" closely correspond to loadings of FA, but "difficulties" replace the notion of "uniquenesses" of FA. IRT fitting certainty quickly decreases as the number of factors grows, which is a problematic side of this approach. IRT is extandible in its own way to incorporate mixed interval+binary+ordinal and possibly nominal variables.
+    
+
+Factor scores in approaches (2) and (3) are more difficult to estimate than factor scores in classic FA or in approach (1). However, several methods do exist (expected or maximum aposteriori methods, maximum likelihood method, etc.).
+
+Factor analysis _model_ assumptions is chiefly the same in the three approaches as in traditional FA. Approach (1) is available in R, SPSS, SAS (to my mind). Approaches (2) and (3) are implemented mostly in specialized latent-variable packages - Mplus, LISREL, EQS.
+
+4.  Polynomial approach. That has not been developed in full yet. Principal components can be modeled as polynomial combinations of variables ([using polynomials](https://stats.stackexchange.com/a/195253/3277) is a popular way to model nonlinear effects of ordinal regressors.). Also, observed categories in turn can be modeled as discrete manifestations of polynomial combinations of latent factors.
+    
+5.  There exist a flourishing field of [nonlinear techniques of](https://en.wikipedia.org/wiki/Nonlinear_dimensionality_reduction) dimensionality reduction; some of them can be applied or adopted to work with categorical data (especially binary or after binarizing into a high-dimensional sparse dataset).
+    
+6.  Performing classic (linear) FA/PCA on rank correlations or other associations suited for categorical data (Spearman/Kendall/Somer's etc.). In case of ordinal data, that is purely heuristic approach, [lacking theoretical grounds](https://stats.stackexchange.com/a/141669/3277) and _not_ recommended at all. With binary data, Spearman rho and Kendall tau-b correlations and Phi association all equal Pearson r correlation, therefore using them is nothing but doing usual linear FA/PCA on binary data (some perils of it [here](https://stats.stackexchange.com/q/186008/3277)). It is also possible (albeit not unquestionable) doing the analysis on 𝑟r[rescaled](https://stats.stackexchange.com/a/104957/3277) wrt its current magnitude bound.
+    
+
+Look also in [this](https://stats.stackexchange.com/q/5774/3277), [this](https://stats.stackexchange.com/q/3810/3277), [this](https://stats.stackexchange.com/q/539/3277), [this](https://stats.stackexchange.com/q/186008/3277), [this](https://stats.stackexchange.com/q/64199/3277), [this](https://stats.stackexchange.com/q/118174/3277), [this](https://stats.stackexchange.com/q/44515/3277), [this](https://stats.stackexchange.com/q/5502/3277).
+
+## 2011 answer
+The question of dichotomous or binary variables in PCA or Factor analysis is eternal. There are polar opinions from "it is illegal" to "it is alright", through something like "you may do it but you'll get too many factors". My own current opinion is as follows. First, I deem that binary observed variable is descrete and that it is improper to treat it in any way as continuous. Can this discrete variable give rise to factor or principal component?
+
+-   **Factor analysis** (FA). Factor by definition is a continuous latent that load observable variables ([1](https://stats.stackexchange.com/q/43304/3277), [2](https://stats.stackexchange.com/q/154250/3277)). Consequently, the latter cannot be but continuous (or interval, more practically speaking) when enough loaded by factor. Also, FA, due to its linear regressional nature, assumes that the rest - not loaded - part, called uniqness, is continuous either, and so it comes that observable variables should be continuous even when loaded slightly. Thus, binary variables **cannot legislate themselves in FA**. However, there are at least two ways round: (A) Assume the dichotomies as roughened continues underlying variables and do FA with tetrachoric - rather than Pearson - correlations; (B) Assume that factor loads a dichotomous variable not linealrly but logistically and do Latent Trait Analysis (aka Item Response Theory) instead of linear FA. [Read more](https://stats.stackexchange.com/a/215483/3277).
+    
+-   **Principal Component Analysis** (PCA). While having much in common with FA, PCA is not a modeling but only a summarizing method. Components do not load variables in the same conceptual sense as factors load variables. In PCA, components load variables _and_ variables load components. This symmetry is because PCA per se is merely a rotation of variables-axes in space. Binary variables won't provide true continuity for a component by their own selves - since they are not continuous, but the pseudocontinuity can be provided by the angle of PCA-rotation which can appear any. Thus in PCA, and in contrast with FA, you **can get seemingly continuous dimensions** (rotated axes) **with purely binary variables** (unrotated axes) - angle is the cause of continuity11.
+    
+    It is debatable whether it is legal to [compute mean](https://stats.stackexchange.com/a/40637/3277) for binary variables (if you take them as truly categorical features). Usually PCA is performed on covariances or correlations, which implies putting the pivot point of PCA-rotation in the (1) centroid (arithmetic mean). For binary data, it makes sense to consider, besides that, other and more natural for binary data locations for such pivot point, or origin: (2) no-attribute point `(0,0)` (if you treat your variables as ["ordinal" binary](https://stats.stackexchange.com/a/116859/3277)), (3) L1 or Manhattan medoid point, (4) multivariate mode point22.
+    
+
+Some related questions about FA or PCA of binary data: [1](https://stats.stackexchange.com/q/159705/3277), [2](https://stats.stackexchange.com/q/19591/3277), [3](https://stats.stackexchange.com/q/32260/3277), [4](https://stats.stackexchange.com/q/103953/3277), [5](https://stats.stackexchange.com/q/31948/3277), [6](https://stats.stackexchange.com/q/4839/3277). Answers there potentially may express opinions different from mine.
+11 Component scores computed in PCA of binary data, like object scores computed in MCA (multiple correspondence analysis) of nominal data, are just _fractional coordinates_ for the granular data in a smooth Euclidean space mapping: these do not permit us to conclude that the categorical data have acquired authentic scale measurement through plain PCA. To have truly scale values, variables must be scale nature from the beginning, at input, or they must be specially quantified or assumed to have been binned ([see](https://stats.stackexchange.com/a/215483/3277)). But in classic PCA or MCA the room for "continuity" emerges later on the level of summary statistics (such as association or frequency matrices) due to that countability is akin to measurability, both are "quantitative". And for _that_ level entities - for variables as points or categories as points - their coordinates in the principal axes space are legitimately scale values indeed. But not for _data points_ (data cases) of binary data, - their "scores" are _pseudo_continuous values: not intrinsic measure, just some overlay coordinates.
+
+---
+
+22 Demonstration of various versions of PCA with binary data depending on the location of the origin of rotation. Linear PCA can be applied to any [SSCP-type](https://stats.stackexchange.com/a/22520/3277) association matrix; it is your choice where to put the origin and whether scale the magnitudes (the matrix diagonal elements) to same value (say, 11) or not. PCA _assumes_ the matrix is SSCP-type and maximizes, by principal components, [SS deviations from the origin](https://stats.stackexchange.com/a/22331/3277). Of course, for binary data (which are bounded) SS deviations depend merely on the frequency observed in this or that direction beyond the origin; yet it also depend on where we locate the origin.
+
+Example of binary data (just a simple case of two variables):
+
+[![enter image description here](https://i.stack.imgur.com/lrOiA.png)](https://i.stack.imgur.com/lrOiA.png)
+
+Scatterplots below display the data points a bit jittered (to render frequency) and show principal component axes as diagonal lines bearing component scores on them [those scores, according to my claim are _pseudo_continuous values]. The left plot on every picture demonstrates PCA based on "raw" deviations from the origin, while the right plot demonstrates PCA based on scaled (diagonal = unit) deviations from it.
+
+1) Traditional PCA puts the `(0,0)` origin into data mean (centroid). For binary data, mean is not a possible data value. It is, however, physical centre of gravity. PCA maximizes variability about it.
+
+(Do not forget, too, that in a binary varible mean and variance are strictly tied together, they are, so to speak, "one thing". Standardizing/scaling binary variables, that is, doing PCA based on correlations not covariances, in the current instance, will mean that you impede more balanced variables - having greater variance - to influence the PCA greater than more skewed variables do.)
+[  
+![enter image description here](https://i.stack.imgur.com/ldpfD.png)](https://i.stack.imgur.com/ldpfD.png)
+
+2) You may do PCA in noncentered data, i.e. let the origin `(0,0)` go to location `(0,0)`. It is PCA on MSCP (`X'X/n`) matrix or on cosine similarity matrix. PCA maximizes protuberability from the no-attribute state.
+
+[![enter image description here](https://i.stack.imgur.com/jpuvk.png)](https://i.stack.imgur.com/jpuvk.png)
+
+3) You may let the origin `(0,0)` lie at the data point of the smallest sum of Manhattan distances from it to all the other data points - L1 medoid. Medoid, generally, is understood as the most "representative" or "typical" data point. Hence, PCA will maximize atypicality (in addition to frequency). In our data, L1 medoid fell on `(1,0)` original coordinates.
+
+[![enter image description here](https://i.stack.imgur.com/DedHC.png)](https://i.stack.imgur.com/DedHC.png)
+
+4) Or put the origin `(0,0)` at the data coordinates where the frequency is the highest - multivariate mode. It is the `(1,1)` data cell in our example. PCA will maximize (be driven by) junior modes.
+
+[![enter image description here](https://i.stack.imgur.com/Cii8D.png)](https://i.stack.imgur.com/Cii8D.png)
+
+5) In the answer's body it was mentioned that tetrachoric correlations is a sound matter to perform factor analysis on, for binary variables. Same could be said about PCA: you may do PCA [based on tetrachoric](https://stats.stackexchange.com/a/215483/3277) correlations. However, that means you are supposing an underlying continuous variable within a binary variable.
