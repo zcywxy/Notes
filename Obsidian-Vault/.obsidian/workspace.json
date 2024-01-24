@@ -81,7 +81,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Others/微积分.md",
+                "file": "Others/读书笔记.md",
                 "mode": "preview",
                 "source": false
               }
@@ -246,7 +246,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Others/微积分.md",
+                "file": "Others/读书笔记.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -263,7 +263,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Others/微积分.md",
+                "file": "Others/读书笔记.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -286,7 +286,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Others/微积分.md"
+                "file": "Others/读书笔记.md"
               }
             }
           }
@@ -311,6 +311,9 @@
   },
   "active": "a550d1d51bf1dae1",
   "lastOpenFiles": [
+    "Others/线性代数.md",
+    "Others/瑜伽理疗.md",
+    "Others/微积分.md",
     "Others/WTC Intro.md",
     "Others/WTC Cohort and Measurement Description.md",
     "Others/Molecular Notes.md",
@@ -348,10 +351,7 @@
     "Others/Plan.md",
     "method note/R Command.md",
     "Others/Lab Meeting Notes.md",
-    "method note/Teaching Practicum I.md",
     "figure/Pasted image 20231209122747.png.baiduyun.p.downloading",
-    "method note/Survival Analysis.md",
-    "method note/ANOVA.md",
     "paper notes/WTC Paper Summary.md.baiduyun.p.downloading",
     "paper notes/Trajectory Paper Review.md.baiduyun.p.downloading",
     "figure/IMG_5908.heic",
