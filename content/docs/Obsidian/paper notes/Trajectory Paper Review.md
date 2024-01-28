@@ -48,7 +48,7 @@ paste0("[",title,"](file:///Users/yuan/Dropbox/papers/cog%20trajectory%20in%20SZ
 		- Results
 			- The multivariate stepwise linear regression models (DUP and EF were rank-transformed) showed that *DUP and baseline negative symptoms* were the only significant *predictors of change in executive function*. IQ was controlled by using the residuals from the regression models.
 		- Limitation
-			- DUP was measured by positive symptoms rather than negative and no consensus on executive function measures.
+			- DUP was measured by positive symptoms rather than negative. no consensus on executive function measures (which domain is better).
 2. [Brain structure, cognition, and brain age in schizophrenia, bipolar disorder, and healthy controls](file:///Users/yuan/Dropbox/papers/cog%20trajectory%20in%20SZ/Brain%20structure,%20cognition,%20and%20brain%20age%20in%20schizophrenia,%20bipolar%20disorder,%20and%20healthy%20controls.pdf) 
 	- #cog_brain_biomarker 
 		- 91 healthy controls, 81 SZ, 53 euthymic BD
@@ -165,7 +165,7 @@ paste0("[",title,"](file:///Users/yuan/Dropbox/papers/cog%20trajectory%20in%20SZ
 13. [Do clinical characteristics predict the cognitive course in early-onset schizophrenia-spectrum disorders?](file:///Users/yuan/Dropbox/papers/cog%20trajectory%20in%20SZ/Do%20clinical%20characteristics%20predict%20the%20cognitive%20course%20in%20early-onset%20schizophrenia-spectrum%20disorders.pdf) 
 	- #small_sample #short_follow #cog_symptom #cog_predict Charlotte M. Teigset 2018, *2-year*, N=29
 		-  Existed: default is EOS evidence
-			 - EOS, early-onset SZ disorders (EOS), illness onset before 18 years old, 5% of the SZ population, worse outcome, similar cognitive profile to adult-onset SZ
+			 - EOS, ==early-onset SZ disorders (EOS)==, illness onset before 18 years old, 5% of the SZ population, worse outcome, similar cognitive profile to adult-onset SZ
 			 - Cognitive deficits, core feature of SZ, not appear in all SZ cases, and more pronounced in SZ than BP, affect all cog domains, effect size from moderate to large, consistent over decades.
 			 - most longitudinal studies found stable course
 			 1. Symptoms
@@ -281,7 +281,7 @@ paste0("[",title,"](file:///Users/yuan/Dropbox/papers/cog%20trajectory%20in%20SZ
 			- Comparisons with normative data showed *impaired executive function* in a proportion of the first episode (FE) sample at *baseline*. Significant *deterioration* was seen over the follow-up period in three of nine sub-tests.
 			- Neurocognitive impairments *deterioration*, but *not* cognition deficit at *baseline*, *correlated* with *clinical outcome*.
 22. [Neurocognition and Duration of Psychosis: A 10-year Follow-up of First-Episode Patients](file:///Users/yuan/Dropbox/papers/cog%20trajectory%20in%20SZ/Neurocognition%20and%20Duration%20of%20Psychosis%20A%2010-year%20Follow-up%20of%20First-Episode%20Patients.pdf) 
-	- #TIPS #cog_DUP #cog_predict  Bjørn Rishovd Rund, 2015, 5 assessments, *10-year*, N=261, selection bias
+	- #TIPS #cog_DUP #cog_predict  Bjørn Rishovd Rund, 2016, 5 assessments, *10-year*, N=261, selection bias
 		- Pop: 261 FEP assessed baseline, 1, 2, 5, and 10 years after inclusion. cognition is composite score by adding z-scores of 4 tests that were moderately inter-correlated. Linear mixed model. 
 		- Results:
 			0.  The composite score was *stable* over 10 years
@@ -305,28 +305,28 @@ paste0("[",title,"](file:///Users/yuan/Dropbox/papers/cog%20trajectory%20in%20SZ
 			2. negative symptoms and cognition *change at different rates*
 		4. **distinct** from each other, correlations are caused by "third variable"
 			1. supported by more recent path analysis that demonstrate the *zero-order correlation*
-24. [Pathways to functional outcomes in schizophrenia spectrum disorders: Meta-analysis of social cognitive and neurocognitive predictors](file:///Users/yuan/Dropbox/papers/cog%20trajectory%20in%20SZ/Pathways%20to%20functional%20outcomes%20in%20schizophrenia%20spectrum%20disorders%20Meta-analysis%20of%20social%20cognitive%20and%20neurocognitive%20predictors.pdf) 
+2. [Neuropsychological Function and Dysfunction in Schizophrenia and Psychotic Affective Disorders.pdf](file:///Users/yuan/Dropbox/papers/cog%20trajectory%20in%20SZ/Neuropsychological%20Function%20and%20Dysfunction%20in%20Schizophrenia%20and%20Psychotic%20Affective%20Disorders.pdf)
+1. [Pathways to functional outcomes in schizophrenia spectrum disorders: Meta-analysis of social cognitive and neurocognitive predictors](file:///Users/yuan/Dropbox/papers/cog%20trajectory%20in%20SZ/Pathways%20to%20functional%20outcomes%20in%20schizophrenia%20spectrum%20disorders%20Meta-analysis%20of%20social%20cognitive%20and%20neurocognitive%20predictors.pdf) 
 	- #cog_function  Tate F. Halverson **Review**, 2019, *cross-sectional* 166 studies
 		- meta-analysis of cross-sectional studies revealed a medium-sized correlation between overall neurocognition and functional outcomes (95% CI=[0.18, 0.24])
-25. [Pathways to functional outcomes in schizophrenia: The role of premorbid functioning, negative symptoms and intelligence](file:///Users/yuan/Dropbox/papers/cog%20trajectory%20in%20SZ/Pathways%20to%20functional%20outcomes%20in%20schizophrenia%20The%20role%20of%20premorbid%20functioning%20negative%20symptoms%20and%20intelligence.pdf) 
+2. [Pathways to functional outcomes in schizophrenia: The role of premorbid functioning, negative symptoms and intelligence](file:///Users/yuan/Dropbox/papers/cog%20trajectory%20in%20SZ/Pathways%20to%20functional%20outcomes%20in%20schizophrenia%20The%20role%20of%20premorbid%20functioning%20negative%20symptoms%20and%20intelligence.pdf) 
 	- #cog_function #cog_symptom  N. Brill, 2009, *4-year*, N=91
 		- Objective: premorbid functioning and postmorbid functional outcomes using historical prospective design.
 		- Results: *premorbid IQ* and premorbid functioning directly predicted *postmorbid IQ* and *negative symptoms*. Premorbid IQ Indirectly predicted *postmorbid functioning* via negative symptoms.
-26. [Premorbid adjustment and clinical correlates of cognitive impairment in first-episode psychosis. The PEPsCog Study](file:///Users/yuan/Dropbox/papers/cog%20trajectory%20in%20SZ/Premorbid%20adjustment%20and%20clinical%20correlates%20of%20cognitive%20impairment%20in%20first-episode%20psychosis.%20The%20PEPsCog%20Study.pdf)
+3. [Premorbid adjustment and clinical correlates of cognitive impairment in first-episode psychosis. The PEPsCog Study](file:///Users/yuan/Dropbox/papers/cog%20trajectory%20in%20SZ/Premorbid%20adjustment%20and%20clinical%20correlates%20of%20cognitive%20impairment%20in%20first-episode%20psychosis.%20The%20PEPsCog%20Study.pdf)
 	- #cog_function Manuel J. Cuesta, 5 assessments, *2-year*, N=266
 		- good *premorbid adjustment* was strongly related to better cognitive performance in *all domains and global cognition*, except in the attention domain
 		- Cognitive impairment has been related to either poor psychosocial premorbid adjustment or to poor premorbid academic functioning
 		- premorbid adjustment to cognitive impairment in patients and controls may be due to the neurodevelopmental disturbances associated with psychoses.
-27. [Predictors and longitudinal course of cognitive functioning in schizophrenia spectrum disorders, 10 years after baseline The OPUS study](file:///Users/yuan/Dropbox/papers/cog%20trajectory%20in%20SZ/Predictors%20and%20longitudinal%20course%20of%20cognitive%20functioning%20in%20schizophrenia%20spectrum%20disorders,%2010%20years%20after%20baseline%20The%20OPUS%20study.pdf)
+4. [Predictors and longitudinal course of cognitive functioning in schizophrenia spectrum disorders, 10 years after baseline The OPUS study](file:///Users/yuan/Dropbox/papers/cog%20trajectory%20in%20SZ/Predictors%20and%20longitudinal%20course%20of%20cognitive%20functioning%20in%20schizophrenia%20spectrum%20disorders,%2010%20years%20after%20baseline%20The%20OPUS%20study.pdf)
 	- #OPUS #cog_function Sara Bergh 2016, 10-year, N=273, loss-follow-up bias
 		- *negative* association between *poor* premorbid academic function (proxy by PAS) and with *10-year cognition*
 		- scores for all cognitive tests remained stable
-28. [Poor premorbid school performance, but not severity of illness, predicts cognitive decline in schizophrenia in midlife](file:///Users/yuan/Dropbox/papers/cog%20trajectory%20in%20SZ/Poor%20premorbid%20school%20performance,%20but%20not%20severity%20of%20illness,%20predicts%20cognitive%20decline%20in%20schizophrenia%20in%20midlife.pdf) 
+5. [Poor premorbid school performance, but not severity of illness, predicts cognitive decline in schizophrenia in midlife](file:///Users/yuan/Dropbox/papers/cog%20trajectory%20in%20SZ/Poor%20premorbid%20school%20performance,%20but%20not%20severity%20of%20illness,%20predicts%20cognitive%20decline%20in%20schizophrenia%20in%20midlife.pdf) 
 	- #cog_function #cog_symptom  Irina Rannikko 2015, 2 assessments, *10-year*, N=42
 		- Objective: to analyze if *premorbid school performance* and the severity of illness and functioning predict change in cognition in schizophrenia in a general population sample.
 		- Results: Lower school marks at age 16 years and lower education at age 34 years *predicted more decline of cognition*. **Severity** of illness or functioning were **not** associated statistically significantly with **change of cognition**.
-		- ==can you measure change of cognition and adjusted for the baseline cognition?==
-29. [Static and Dynamic Cognitive Deficits in Childhood Preceding Adult Schizophrenia: A 30-Year Study](file:///Users/yuan/Dropbox/papers/cog%20trajectory%20in%20SZ/Static%20and%20Dynamic%20Cognitive%20Deficits%20in%20Childhood%20Preceding%20Adult%20Schizophrenia%20A%2030-Year%20Study.pdf) 
+6. [Static and Dynamic Cognitive Deficits in Childhood Preceding Adult Schizophrenia: A 30-Year Study](file:///Users/yuan/Dropbox/papers/cog%20trajectory%20in%20SZ/Static%20and%20Dynamic%20Cognitive%20Deficits%20in%20Childhood%20Preceding%20Adult%20Schizophrenia%20A%2030-Year%20Study.pdf) 
 	- #cog_course #small_sample #teenager Abraham Reichenberg 2010, *6-year*, N=35 SZ, 145 depression
 		- Existed
 			- Premorbid cognitive deficit 8 point
@@ -344,7 +344,7 @@ paste0("[",title,"](file:///Users/yuan/Dropbox/papers/cog%20trajectory%20in%20SZ
 		- Results
 			- *stable* deficit in verball and visual, resaoning, conceptualization. *slower development* in processing speed, attention, visual-spatial, working memory. Not observed in depression.
 				- ![[Pasted image 20230503161624.png]]
-30. [The Course of General Cognitive Ability in Individuals With Psychotic Disorders](file:///Users/yuan/Dropbox/papers/cog%20trajectory%20in%20SZ/The%20Course%20of%20General%20Cognitive%20Ability%20in%20Individuals%20With%20Psychotic%20Disorders.pdf) [Supp link](file:///Users/yuan/Dropbox/papers/cog%20trajectory%20in%20SZ/Supplement%20The%20Course%20of%20General%20Cognitive%20Ability%20in%20Individuals%20With%20Psychotic%20Disorders.pdf) 
+7. [The Course of General Cognitive Ability in Individuals With Psychotic Disorders](file:///Users/yuan/Dropbox/papers/cog%20trajectory%20in%20SZ/The%20Course%20of%20General%20Cognitive%20Ability%20in%20Individuals%20With%20Psychotic%20Disorders.pdf) [Supp link](file:///Users/yuan/Dropbox/papers/cog%20trajectory%20in%20SZ/Supplement%20The%20Course%20of%20General%20Cognitive%20Ability%20in%20Individuals%20With%20Psychotic%20Disorders.pdf) 
 	- #SCMHP  #cog_course Katherine Jonas 2022, *-20~39 yr* sinnce onset, N=428
 		- Gap:
 			1. When emerge: high risk and prodromal cohorts not decline. small longitudinal studies showed decline relative to chronological age rather than illness onset.
@@ -352,17 +352,17 @@ paste0("[",title,"](file:///Users/yuan/Dropbox/papers/cog%20trajectory%20in%20SZ
 			3. BP and other: normal premorbid IQ, inconsistent in deterioration. Generally, deficit before onset and impairment smaller than SZ, remain stable in first 10 years and may worsen in later.
 		- Results:first stable cognitive period, declining period, deteriorating period
 			- ![[Pasted image 20230502115340.png|410]] ![[Pasted image 20230502115400.png|400]] ![[Pasted image 20230502115427.png|580]]  
-31. [Ten-year course of cognition in first-episode non-affective psychosis patients PAFIP cohort.pdf](file:///Users/yuan/Dropbox/papers/cog%20trajectory%20in%20SZ/Ten-year%20course%20of%20cognition%20in%20first-episode%20non-affective%20psychosis%20patients%20PAFIP%20cohort.pdf)
+8. [Ten-year course of cognition in first-episode non-affective psychosis patients PAFIP cohort.pdf](file:///Users/yuan/Dropbox/papers/cog%20trajectory%20in%20SZ/Ten-year%20course%20of%20cognition%20in%20first-episode%20non-affective%20psychosis%20patients%20PAFIP%20cohort.pdf)
 	- #cog_course #cog_function José Manuel Rodríguez-Sánchez, 2020, 10-year, N=140
 		- repeated measurements ANOVA, suffered with *missing data* and strict data distribution assumption (CS and normality)
 		- Our results support the generalized *stability of cognitive* functions in schizophrenia spectrum disorders considering the entire group. However, the existence of a *subgroup* of patients characterized by *deteriorating cognition* and *worse long-term clinical outcomes* must be noted. Nevertheless, it was not possible to identify concomitant factors or predictors of deterioration (all Ps > 0.05).
-32. [Race, ethnicity, and the duration of untreated psychosis: a systematic review](https://pubmed.ncbi.nlm.nih.gov/24213521/)
+9. [Race, ethnicity, and the duration of untreated psychosis: a systematic review](https://pubmed.ncbi.nlm.nih.gov/24213521/)
 	- #race **Review**
 		- 2014: Overall, these studies did not find evidence of differences between groups; however, three of ten studies suggested that Black patients generally, and Black-African patients specifically, may have a shorter DUP relative to White patients. There were methodological limitations in most studies with respect to ethnicity classification, sample size, and adjustment for potential confounders.
-33. [Racism and Social Determinants of Psychosis](https://pubmed.ncbi.nlm.nih.gov/36888999/) 
+10. [Racism and Social Determinants of Psychosis](https://pubmed.ncbi.nlm.nih.gov/36888999/) 
 	- #race 
 		- Black and Latinx populations are more likely than White populations to report psychotic experiences in the United States due to social determining factors such as racial discrimination, food insecurity, and police violence.
-34. [what are the functional consequences of neurocognitive deficits](file:///Users/yuan/Dropbox/papers/cog%20trajectory%20in%20SZ/what-are-the-functional-consequences-of-neurocognitive-deficits--1996.pdf)
+11. [what are the functional consequences of neurocognitive deficits](file:///Users/yuan/Dropbox/papers/cog%20trajectory%20in%20SZ/what-are-the-functional-consequences-of-neurocognitive-deficits--1996.pdf)
 	- #cog_function  Michael Foster Green, **Review**, 1996
 		- Objective
 			- This review include studies examined the functional outcomes from 3 types: 
@@ -370,38 +370,38 @@ paste0("[",title,"](file:///Users/yuan/Dropbox/papers/cog%20trajectory%20in%20SZ
 			2. social problem solving
 			3. psychosocial skill acquisition
 		- Results: despite wide variation, most consistent finding was that verbal memory was associated with all types of functional outcome. Vigilance 警觉 was related with social problem solving and skill acquisition. negative symptoms related with social problem solving. positive symptoms not related with any outcome in the reviewed studies.
-35. [Cannabis Use and Symptomatic Relapse in First Episode Schizophrenia/ Trigger or Consequence Data From the OPTIMISE Study.pdf](file:///Users/yuan/Dropbox/papers/cog%20trajectory%20in%20SZ/Cannabis%20Use%20and%20Symptomatic%20Relapse%20in%20First%20Episode%20Schizophrenia%20Trigger%20or%20Consequence%20Data%20From%20the%20OPTIMISE%20Study.pdf)
+12. [Cannabis Use and Symptomatic Relapse in First Episode Schizophrenia/ Trigger or Consequence Data From the OPTIMISE Study.pdf](file:///Users/yuan/Dropbox/papers/cog%20trajectory%20in%20SZ/Cannabis%20Use%20and%20Symptomatic%20Relapse%20in%20First%20Episode%20Schizophrenia%20Trigger%20or%20Consequence%20Data%20From%20the%20OPTIMISE%20Study.pdf)
 	- #cannabis #OPTIMISE Linda Levi, 2023, 1-year, N=192
 		- **Increased Risk of Relapse with Cannabis Use**: Cannabis users had a significantly higher risk of relapse compared to non-users, with an adjusted hazard ratio of 3.03. This heightened risk persisted even among patients who adhered to their antipsychotic medication (adjusted hazard ratio of 2.89).
 		- **Cannabis Use Preceding Worsening Symptoms**: The use of cannabis was followed by a deterioration in the Positive and Negative Syndrome Scale total score at the one-year mark and a decrease in social functioning.
 		- **Temporal Relationship**: Importantly, the study found that cannabis use came before the symptomatic worsening and relapse, indicating that the relapse was a consequence of cannabis use rather than patients using cannabis in response to a relapse.
-36. [Cannabis Use and the Course of Schizophrenia 10-Year Follow-Up After First Hospitalization.pdf](file:///Users/yuan/Dropbox/papers/cog%20trajectory%20in%20SZ/Cannabis%20Use%20and%20the%20Course%20of%20Schizophrenia%2010-Year%20Follow-Up%20After%20First%20Hospitalization.pdf)
-	- #cannabis Daniel J. Foti, 2010, 10-Year, N=229
+13. [Cannabis Use and the Course of Schizophrenia 10-Year Follow-Up After First Hospitalization.pdf](file:///Users/yuan/Dropbox/papers/cog%20trajectory%20in%20SZ/Cannabis%20Use%20and%20the%20Course%20of%20Schizophrenia%2010-Year%20Follow-Up%20After%20First%20Hospitalization.pdf)
+	- #cannabis   #SCMHP  Daniel J. Foti, 2010, 10-Year, N=229
 		1. **High Rate of Cannabis Use**: The lifetime prevalence of cannabis use among the participants was 66.2%. Notably, current use rates fluctuated between 10% to 18% across different assessment points.
 		2. **Earlier Onset of Psychosis**: Cannabis use was linked to an earlier onset of psychosis, as determined through survival analysis.
 		3. **Moderate Stability in Cannabis Use**: There was a moderate level of consistency in cannabis use over time, with concordance rates between different assessment waves ranging from 0.48 to 0.78.
 		4. **Impact on Psychotic Symptoms**: Mixed-effects logistic regression indicated that changes in cannabis use corresponded with alterations in psychotic symptoms. This association persisted even after controlling for factors like gender, age, socio-economic status, use of other drugs, antipsychotic medication, and other symptoms.
 		5. **Bi-directional Relationship**: Structural equation modeling revealed a bi-directional association between cannabis use and psychotic symptoms.
-6. [Cannabis use and clinical outcome in people with first-episode schizophrenia spectrum disorders over 24 months of treatment.pdf](file:///Users/yuan/Dropbox/papers/cog%20trajectory%20in%20SZ/Cannabis%20use%20and%20clinical%20outcome%20in%20people%20with%20first-episode%20schizophrenia%20spectrum%20disorders%20over%2024%20months%20of%20treatment.pdf)
+14. [Cannabis use and clinical outcome in people with first-episode schizophrenia spectrum disorders over 24 months of treatment.pdf](file:///Users/yuan/Dropbox/papers/cog%20trajectory%20in%20SZ/Cannabis%20use%20and%20clinical%20outcome%20in%20people%20with%20first-episode%20schizophrenia%20spectrum%20disorders%20over%2024%20months%20of%20treatment.pdf)
 	- #cannabis Freda Scheffler, 2021
 		- **Baseline Differences**: Initially, cannabis users displayed poorer functionality compared to non-users.
 		- **Similarity in Treatment Response**: Across the 24 months, both groups showed similar responses in terms of symptom reduction. There were no significant group-by-time interactions for any measured outcomes, indicating that cannabis use did not worsen symptoms over time.
 		- **Relapse Rates**: Despite similar symptom reduction, cannabis users had higher rates of relapse as defined by the study's criteria.
 		- **Impact of Ongoing Cannabis Use**: Frequent cannabis use, confirmed by positive urine toxicology tests, was a predictor of relapse. This suggests a dose-related risk of relapse with continued cannabis use, potentially by lowering the threshold for psychotic episodes.
-1. [Premorbid Adjustment and IQ in Patients With First-Episode Psychosis A Multisite Case-Control Study of Their Relationship With Cannabis Use.pdf](file:///Users/yuan/Dropbox/papers/cog%20trajectory%20in%20SZ/Premorbid%20Adjustment%20and%20IQ%20in%20Patients%20With%20First-Episode%20Psychosis%20A%20Multisite%20Case-Control%20Study%20of%20Their%20Relationship%20With%20Cannabis%20Use.pdf)
+15. [Premorbid Adjustment and IQ in Patients With First-Episode Psychosis A Multisite Case-Control Study of Their Relationship With Cannabis Use.pdf](file:///Users/yuan/Dropbox/papers/cog%20trajectory%20in%20SZ/Premorbid%20Adjustment%20and%20IQ%20in%20Patients%20With%20First-Episode%20Psychosis%20A%20Multisite%20Case-Control%20Study%20of%20Their%20Relationship%20With%20Cannabis%20Use.pdf)
 	- #cannabis  Laura Ferraro, 2020
 		- **IQ Levels**: Both in patients and controls, occasional cannabis users had a mean IQ approximately 3 points higher than never-users.
 		- **Academic Factor**: Daily cannabis users, both among cases and controls, had lower AF compared to occasional and never-users.
 		- **Social Factor**: Among patients, both occasional and daily cannabis users had better SF compared to never-users. This difference was not observed in the control group.
-2. [Cognitive performance and lifetime cannabis use in patients with first-episode schizophrenia spectrum disorder.pdf](file:///Users/yuan/Dropbox/papers/cog%20trajectory%20in%20SZ/Cognitive%20performance%20and%20lifetime%20cannabis%20use%20in%20patients%20with%20first-episode%20schizophrenia%20spectrum%20disorder.pdf)
+16. [Cognitive performance and lifetime cannabis use in patients with first-episode schizophrenia spectrum disorder.pdf](file:///Users/yuan/Dropbox/papers/cog%20trajectory%20in%20SZ/Cognitive%20performance%20and%20lifetime%20cannabis%20use%20in%20patients%20with%20first-episode%20schizophrenia%20spectrum%20disorder.pdf)
 	- #cannabis  M. Hájková, 2021
 		- **FES Cannabis Users vs. Non-Users**: FES patients who used cannabis displayed less impaired cognitive functioning, particularly noticeable in visual memory, compared to FES non-users. There were no significant differences in general psychopathology, positive and negative symptoms, or medication use between these two groups.
 		- **Healthy Controls**: Among the healthy control group, there were no substantial differences in cognitive performance between cannabis users and non-users.
-3. [Balancing risks and benefits of cannabis use umbrella review of meta-analyses of randomised controlled trials and observational studies.pdf](file:///Users/yuan/Dropbox/papers/cog%20trajectory%20in%20SZ/Balancing%20risks%20and%20benefits%20of%20cannabis%20use%20umbrella%20review%20of%20meta-analyses%20of%20randomised%20controlled%20trials%20and%20observational%20studies.pdf)
+17. [Balancing risks and benefits of cannabis use umbrella review of meta-analyses of randomised controlled trials and observational studies.pdf](file:///Users/yuan/Dropbox/papers/cog%20trajectory%20in%20SZ/Balancing%20risks%20and%20benefits%20of%20cannabis%20use%20umbrella%20review%20of%20meta-analyses%20of%20randomised%20controlled%20trials%20and%20observational%20studies.pdf)
 	- #cannabis Marco Solmi 2023
 		- Convincing or converging evidence supports that cannabis use is associated with poor mental health and cognition, increased the risk of car crashes, and can have detrimental effects on offspring if used during pregnancy.
 		- Psychosis: most evidence is low quality. five associations of cannabinoids with *harmful effects* (ie, *working memory, psychosis relapse, premorbid IQ* (unadjusted), poor adherence to antipsychotics (two associations adjusted)) were upgraded from weak (class IV) to suggestive evidence (class III).
-4. [Handbook of Cannabis and Related Pathologies.pdf](file:///Users/yuan/Dropbox/papers/cog%20trajectory%20in%20SZ/Handbook%20of%20Cannabis%20and%20Related%20Pathologies.pdf)
+18. [Handbook of Cannabis and Related Pathologies.pdf](file:///Users/yuan/Dropbox/papers/cog%20trajectory%20in%20SZ/Handbook%20of%20Cannabis%20and%20Related%20Pathologies.pdf)
 	- #book #cannabis Chapter 5 Lifetime Cannabis use and Cognition in Psychosis Spectrum Disorders, M.J. Cuesta, 2017
 		- **Cognitive Deficits in Psychotic Disorders**: Cognitive impairments are a core feature of psychotic disorders, significantly affecting functional outcomes, treatment adherence, and relapse risk.
 		- **Prevalence of Cannabis Use Disorders**: The median lifetime prevalence of cannabis use disorder in patients with schizophrenia is notably higher (27.1%) than in the general population.
@@ -421,7 +421,7 @@ paste0("[",title,"](file:///Users/yuan/Dropbox/papers/cog%20trajectory%20in%20SZ
 			- These authors suggest that the finding of better cognitive functioning in cannabis users, compared with nonusers, may be a consequence of *including first-episode patients with cannabis-induced psychosis*, the heterogeneity of diagnoses, and the *absence of laboratory testing* to con- firm drug consumption.
 			- In summary, most research points towards better cognitive function associated with cannabis use in psychotic patients. However, the results are inconclusive because of the methodological variability of the studies, the limited sample sizes, and the amount of research that has found no differences or poorer cognitive functioning in patients with comorbid cannabis use.
 
-### Roman's Comments
+## Roman's Comments
 - **Do we want to risk factors or correlates?** I want to change title and all description into correlates and discuss the potential DNA race predictor role in the discussion part. So that we will maintain all of the variables.
 - *Time Scale*: who is in the sample, where did their trajectory start, how did the trajectory go from there, how did it differ depending on the risk factor. In Jonas et al (2022) JAMA Psychiatry, it was a good idea to place the *intercept at first admission*. However, the story of risk factors is much easier to tell and understand when the *origin is where your data begins* (i.e., childhood) and risk factors are already present there.
 - *Predictors before the outcome*: If you want to tell a story of baseline risk factors, then the trajectory has to start at baseline, no pre-baseline outcome data (i.e., cognition) is allowed, unless you want to use pre-baseline cognition as a predictor. Importantly, you can either include pre-admission cognition and then talk about *SES, cannabis abuse etc as correlates* of trajectory OR exclude all pre-admission cognition and then talk about these variables as predictors. However, it is not possible to assess predictors half-way through the trajectory, there has to be temporal sequence to claim prediction.
@@ -447,27 +447,26 @@ lead time bias is functioning outcome
 	- [ ] **Trajectory Figures: only significant one or all of variables in the study?**
 	- [ ] Include intercept in the outcomes analyses: we did that just didn't report the coefficient of the intercept
 	- [ ] childhood decline as predictor: Low IQ
-	- [ ] functional decline: best baseline GAF. delta=last available childhood GAF- first available childhood
-	- [ ] Categorize DUP variable into two categories: 3-months
-	- [ ] report the null trajectory table
+	- [ ] functional decline: best baseline GAF. delta=baseline GAF- first available childhood
+	- [x] Categorize DUP variable into two categories: 3-months
+	- [x] report the null trajectory table
 	- [ ] use index_age dataset to create delta-age
-	- [ ] time_BL_admit.  "stable" dataset. Time re-scale.
-	- [ ] Standardize the slope and intercept for the Outcome Analyses
-	- [ ] check supp 6. ![[Pasted image 20240118131746.png]]
-	- [ ] supp figure 1 race label is not correct.
-	
+	- [x] time_BL_admit.  "stable" dataset. Time re-scale.
+	- [x] Standardize the slope and intercept for the Outcome Analyses
+	- [x] check supp 6. ![[Pasted image 20240118131746.png]]
+	- [x] supp figure 1 race label is not correct.
 - writing: 
 	- Typo
-		 - [ ] *Non-white*
+		 - [x] *Non-white*
 		 - [ ] Avoid mediation analysis tone: Non-white -> slope -> outcomes, *use greater slope correlates* with....
-		 - [ ]  It is odd to say that decline (even if a mild one) predicts good outcome. there were some cases who did not decline but rather improved. True: Change to "*increased cognitive trajectory predicts good outcomes compared to the decreased one*? PS: Also in fixed effect estimates is -0.28 but the extracted mean T2 slope is 0.
-		- [ ] *Correlates rather than predict*: Remission is an uncomfortable choice of a predictor. Remission only happens after first-episode, so remission is not a baseline predictor of future trajectory but sounds more like a contemporaneous correlate.
-		- [ ] *Clarify the change period*: Change is more accurate, because some participants improved (had positive slopes). Also, the trajectories model has two post-onset slopes (period 2 and period 3), it would be important to specify here which slopes went into prediction.
-		- [ ] *Table 2 description*: *Clarify it is the intercept and the 0 point of the time*. I believe you are referring here to the intercept of the trajectory at first hospitalization. Is this correct? If so, describe it accordingly. Yes, the intercept contributes to scores across the entire interval, but intercept score change s(in both absolute and relative terms) depending on where origin of the trajectory is placed.
-		- [ ] *Split Table 2 into 2 tables*: What sample do you want to report here? If the* baseline sample*, then *genetic effects* need to go to a separate Table. If the focus is on genetic effects than this should be the genotyped sample (i.e., 812 observations). Also important, does the *model include cognitive scores after Year 22?* If so, then need to show predictors of the second slope (i.e., after Year 22), otherwise the report looks incomplete and arbitrary. Also, *SES, Cannabis, and DUP* should go in a separate table of *correlates* of the trajectory.
-		- [ ] change β to B
-		- [ ] **Table 4: exp(β) over 1000. those are the odds ratio of being yes in the binary outcome. The slope is in the IQ metric.**. These statistics are not interpretable because predictor was not standardized. I recommend standardizing trajectory features or at least expressing them on IQ metric. Either way, I expect these ORs to be close to 2.0 not >1000.
-		- [ ] It would be much clearer to talk about these associations in the other direction (i.e., higher cognitive functioning at baseline). "lower genetic risk for bipolar disorder, lower socioeconomic status44, non white race/ethnicity, and non lifetime history of cannabis abuse were all associated with lower average cognitive ability"
+		 - [x]  It is odd to say that decline (even if a mild one) predicts good outcome. there were some cases who did not decline but rather improved. True: Change to "*increased cognitive trajectory predicts good outcomes compared to the decreased one*? PS: Also in fixed effect estimates is -0.28 but the extracted mean T2 slope is 0.
+		- [x] *Correlates rather than predict*: Remission is an uncomfortable choice of a predictor. Remission only happens after first-episode, so remission is not a baseline predictor of future trajectory but sounds more like a contemporaneous correlate.
+		- [x] *Clarify the change period*: Change is more accurate, because some participants improved (had positive slopes). Also, the trajectories model has two post-onset slopes (period 2 and period 3), it would be important to specify here which slopes went into prediction.
+		- [x] *Table 2 description*: *Clarify it is the intercept and the 0 point of the time*. I believe you are referring here to the intercept of the trajectory at first hospitalization. Is this correct? If so, describe it accordingly. Yes, the intercept contributes to scores across the entire interval, but intercept score change s(in both absolute and relative terms) depending on where origin of the trajectory is placed.
+		- [x] *Split Table 2 into 2 tables*: What sample do you want to report here? If the* baseline sample*, then *genetic effects* need to go to a separate Table. If the focus is on genetic effects than this should be the genotyped sample (i.e., 812 observations). Also important, does the *model include cognitive scores after Year 22?* If so, then need to show predictors of the second slope (i.e., after Year 22), otherwise the report looks incomplete and arbitrary. Also, *SES, Cannabis, and DUP* should go in a separate table of *correlates* of the trajectory.
+		- [x] change β to B
+		- [x] **Table 4: exp(β) over 1000. those are the odds ratio of being yes in the binary outcome. The slope is in the IQ metric.**. These statistics are not interpretable because predictor was not standardized. I recommend standardizing trajectory features or at least expressing them on IQ metric. Either way, I expect these ORs to be close to 2.0 not >1000.
+		- [x] It would be much clearer to talk about these associations in the other direction (i.e., higher cognitive functioning at baseline). "lower genetic risk for bipolar disorder, lower socioeconomic status44, non white race/ethnicity, and non lifetime history of cannabis abuse were all associated with lower average cognitive ability"
 		- [ ] Yes, size of effects is important. How large exactly? "We further identified that cognitive decline predicted the odds of remission, recovery, and financial independence 25 years after first admission. These effects were large"
 	- Add detail
 		- [ ]  report how much younger they were (i.e., difference between included vs excluded)
@@ -481,17 +480,17 @@ lead time bias is functioning outcome
 		- [ ]  Cognition descriptions
 		- [ ]  Remission & Recovery
 	- Text-Table inconsistence
-		- [ ]  That’s not what Supplemental Table 1 shows, rather its title is “Multiple Predictors with Genetic Predictor: Piecewise Linear Mixed Models Result in Evaluating Risk Factors for Cognitive Decline.”
-	- [ ] Add Missing Figure
+		- [x]  That’s not what Supplemental Table 1 shows, rather its title is “Multiple Predictors with Genetic Predictor: Piecewise Linear Mixed Models Result in Evaluating Risk Factors for Cognitive Decline.”
+	- [x] Add Missing Figure
 		- ![[Pasted image 20240104121617.png|600]]
 - Citation Update: Do not use the old one
-	- [ ] Introduction beginning citation
+	- [x] Introduction beginning citation
 		- [Cognitive impairment in people with schizophrenia: an umbrella review, 2022](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9508017/)
 		- [Schizophrenia is a cognitive illness: time for a change in focus, 2013 JAMA](https://pubmed.ncbi.nlm.nih.gov/23925787)
 		- [Cognitive impairment in schizophrenia, 2012](https://pubmed.ncbi.nlm.nih.gov/23027411)  
 		- [Cognitive deficits and functional outcome in schizophrenia, 2006](https://pubmed.ncbi.nlm.nih.gov/19412501)
-	 - [ ] [Neurodegenerative model of schizophrenia: Growing evidence to support a revisit](https://pubmed.ncbi.nlm.nih.gov/35344853/)
-	- [ ] Bonner-Jackson et al (2010) found stability, rather than continued decline
+	 - [x] [Neurodegenerative model of schizophrenia: Growing evidence to support a revisit](https://pubmed.ncbi.nlm.nih.gov/35344853/)
+	- [x] Bonner-Jackson et al (2010) found stability, rather than continued decline
 	- [ ] Reference for this: Bromet, E. J., Kotov, R., Fochtmann, L. J., Carlson, G. A., Tanenberg-Karant, M., Ruggero, C., & Chang, S. W. (2011). Diagnostic shifts during the decade following first admission for psychosis. _American journal of psychiatry_, _168_(11), 1186-1194.
 	- [ ] [The 20-Year Longitudinal Trajectories of Social Functioning in Individuals With Psychotic Disorders](https://pubmed.ncbi.nlm.nih.gov/27978770/)
 	- [ ] Original Katherine citation

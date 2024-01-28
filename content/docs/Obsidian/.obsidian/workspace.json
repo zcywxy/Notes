@@ -62,17 +62,33 @@
               "type": "markdown",
               "state": {
                 "file": "paper notes/Trajectory Paper Review.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "a42f42bf58d233f3",
+            "id": "e0b5fad544aa1ba5",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "method note/Mardown Methods.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "16c485437cae1f83",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "private/IDP & Work Log.md",
+                "mode": "source",
+                "source": false
+              }
             }
           },
           {
@@ -172,7 +188,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 13
       }
     ],
     "direction": "vertical"
@@ -201,7 +217,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#cog_social_function",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -226,11 +242,12 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 228.01103591918945
   },
   "right": {
     "id": "cdb8e042a8090780",
@@ -246,7 +263,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Others/读书笔记.md",
+                "file": "paper notes/Trajectory Paper Review.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -263,7 +280,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Others/读书笔记.md",
+                "file": "paper notes/Trajectory Paper Review.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -286,7 +303,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Others/读书笔记.md"
+                "file": "paper notes/Trajectory Paper Review.md"
               }
             }
           }
@@ -295,7 +312,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 311
+    "width": 264
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -309,8 +326,15 @@
       "obsidian-map-view:Open map view": false
     }
   },
-  "active": "a550d1d51bf1dae1",
+  "active": "65976fee3ae1ac0a",
   "lastOpenFiles": [
+    "method note/PSY 505.md",
+    "method note/Git.md",
+    "paper notes/Trajectory Paper Review.md",
+    "paper notes/Review education.md",
+    "method note/Mardown Methods.md",
+    "private/IDP & Work Log.md",
+    "Others/读书笔记.md",
     "Others/线性代数.md",
     "Others/瑜伽理疗.md",
     "Others/微积分.md",
@@ -325,9 +349,6 @@
     "figure/Pasted image 20240122113401.png",
     "figure/Pasted image 20240122113045.png",
     "figure/Pasted image 20240122085429.png",
-    "paper notes/Trajectory Paper Review.md",
-    "method note/Git.md",
-    "paper notes/Review education.md",
     "paper notes/Unlabeled Data for Classification.md",
     "figure/Pasted image 20240118160754.png",
     "figure/Pasted image 20240118131746.png",
@@ -346,11 +367,7 @@
     "netlify.toml",
     "netlify.example.toml",
     "^quote-of-the-day.md",
-    "method note/Mardown Methods.md",
-    "method note/PSY 505.md",
     "Others/Plan.md",
-    "method note/R Command.md",
-    "Others/Lab Meeting Notes.md",
     "figure/Pasted image 20231209122747.png.baiduyun.p.downloading",
     "paper notes/WTC Paper Summary.md.baiduyun.p.downloading",
     "paper notes/Trajectory Paper Review.md.baiduyun.p.downloading",
