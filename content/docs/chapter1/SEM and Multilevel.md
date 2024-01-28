@@ -240,7 +240,7 @@ All of these are hydraulic kind of forces, where if you have poor measurements o
 	- R square, explained variance in outcomes
 #### 2.1 Moments Structure
 - **θ**
-	- ![[Pasted image 20230716025234.png|400]] 
+	- ![](https://github.com/crystalbell98/Notes/tree/main/content/docs/figure/Pastedimage%2020230716025234.png)
 	- all theta does is holds our model. Again, imagine a bookshelf. One book is your intercept. The next book is your first regression coefficient, the next book is your second regression coefficient. Theta is gonna be a storage system for our model. We're gonna put whatever our model is in the theta. The variance of zeta there is psi.
 	- When we start to build *more complicated* models, none of what we're gonna talk about is gonna change. It's *just theta gets longer*. In the path analysis model, we're gonna have more psi and more alpha. 
 - **Moments** in multivariate model and SEM
