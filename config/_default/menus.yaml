@@ -17,5 +17,5 @@ main:
     url: bios/
     weight: 25
   - name: Obsidian
-    url: obsidian/
-    weight: 25
+    url: Obsidian/
+    weight: 10
