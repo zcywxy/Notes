@@ -169,7 +169,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "paper notes/Trajectory Paper Review.md",
+                "file": "private/写作计划.md",
                 "mode": "preview",
                 "source": false
               }
@@ -217,7 +217,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#cog_social_function",
+                "query": "",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -242,8 +242,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -263,7 +262,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "paper notes/Trajectory Paper Review.md",
+                "file": "private/写作计划.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -280,7 +279,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "paper notes/Trajectory Paper Review.md",
+                "file": "private/写作计划.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -303,7 +302,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "paper notes/Trajectory Paper Review.md"
+                "file": "private/写作计划.md"
               }
             }
           }
@@ -326,14 +325,22 @@
       "obsidian-map-view:Open map view": false
     }
   },
-  "active": "65976fee3ae1ac0a",
+  "active": "abe4ad6d82761bca",
   "lastOpenFiles": [
+    "private/WTC work notes.md",
+    "private/Lab Meeting Notes.md",
+    "private/Katherine Projects.md",
+    "private/JAMA Comments for Sean's Cognition Paper.md",
+    "private/IDP & Work Log.md",
+    "private/Grant Proposal.md",
+    "private/English.md",
+    "private/Dissertation Proposal.md",
+    "private/写作计划.md",
+    "method note/Mardown Methods.md",
     "method note/PSY 505.md",
     "method note/Git.md",
     "paper notes/Trajectory Paper Review.md",
     "paper notes/Review education.md",
-    "method note/Mardown Methods.md",
-    "private/IDP & Work Log.md",
     "Others/读书笔记.md",
     "Others/线性代数.md",
     "Others/瑜伽理疗.md",
@@ -356,18 +363,10 @@
     "figure/Pasted image 20240115131233.png",
     "figure/Pasted image 20240115130348.png",
     "figure/Pasted image 20240115130321.png",
-    "paper notes/Biomarkers for neurodegenerative disease.md",
     "figure/EKC.pdf",
-    "method note/Piecewise Mixed Model.md",
-    "content/_index.md",
     "content",
-    "Others/WTC work notes.md",
-    "Others/写作计划.md",
-    "Others/可爱的朋友们.md",
     "netlify.toml",
     "netlify.example.toml",
-    "^quote-of-the-day.md",
-    "Others/Plan.md",
     "figure/Pasted image 20231209122747.png.baiduyun.p.downloading",
     "paper notes/WTC Paper Summary.md.baiduyun.p.downloading",
     "paper notes/Trajectory Paper Review.md.baiduyun.p.downloading",
