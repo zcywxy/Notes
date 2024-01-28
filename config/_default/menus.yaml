@@ -5,17 +5,8 @@
 
 main:
   - name: Home
-    url: /
+    url: https://crystalbell98.github.io/Notes/
     weight: 10
   - name: Project Documentation
     url: docs/
     weight: 25
-  - name: Paper Review
-    url: papers/
-    weight: 10
-  - name: Biostatistic Tutorial
-    url: bios/
-    weight: 25
-  - name: Obsidian
-    url: Obsidian/
-    weight: 10
