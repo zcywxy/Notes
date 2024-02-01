@@ -7,6 +7,9 @@ main:
   - name: Home
     url: https://crystalbell98.github.io/Notes/
     weight: 10
+  - name: Topics 
+    url: /tags/ 
+    weight: 15
   - name: Project Documentation
     url: docs/
     weight: 25
