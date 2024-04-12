@@ -93,3 +93,7 @@ features:
       api_key: ''
       index_name: ''
       show_logo: false
+
+theme:
+  color: default
+  custom_css: themes/wide-format.css
