@@ -35,8 +35,16 @@ for subdir, dirs, files in os.walk('.'):
                 content = pattern_with_size.sub(create_replace_func(ext, base_image_url), content)
                 # Replace images without size info
                 content = pattern_without_size.sub(lambda match: create_replace_func(ext, base_image_url)(match), content)
-
             # Write back using 'utf-8' encoding
+            with open(filepath, 'w', encoding='utf-8') as f:
+                f.write(content)
+        elif file.startswith('wowchemy.') and file.endswith('.css'):
+            with open(filepath, 'r', encoding='utf-8') as f:
+                content = f.read()
+
+            pattern = re.compile(r"(\.docs-article-container\s*\{[^}]*\})")
+            content = pattern.sub(r'/* \1 */', content)
+
             with open(filepath, 'w', encoding='utf-8') as f:
                 f.write(content)
 
